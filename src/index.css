@@ -1,0 +1,57 @@
+/* Global Styles */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c5c5ce;
+  background: #17181e;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Body */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Main Root */
+#root {
+  width: 100%;
+  max-width: 1126px;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  border-left: 1px solid #303039;
+  border-right: 1px solid #303039;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h1,
+h2 {
+  color: #f3f3f5;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  cursor: pointer;
+}
